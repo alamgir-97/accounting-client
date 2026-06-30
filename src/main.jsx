@@ -5,6 +5,9 @@ import { RouterProvider } from 'react-router-dom'
 import Routes from './Routes/Routes.jsx'
 import AuthProvider from './providers/AuthProvider.jsx'
 import FormulaProvider from './formulaProvider/formulaProvider.jsx'
+import { Provider } from 'react-redux'
+import store from '/src/pages/redux/redux/store.js'
+
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -13,7 +16,10 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
 <FormulaProvider>
 <AuthProvider>
+<Provider store={store}>
 <RouterProvider router={ Routes }/>
+</Provider>
+
 </AuthProvider>
 </FormulaProvider>
   </React.StrictMode>

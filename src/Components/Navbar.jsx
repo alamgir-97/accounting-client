@@ -2,14 +2,15 @@ import { NavLink } from "react-router-dom";
 import Speech from "./Speech";
 import { AuthContext } from "../providers/AuthProvider";
 import { useContext } from "react";
+import Quiz from './../pages/Quiz/Quiz';
+import { Draggable } from 'react-draggable';
 
 const Navbar = () => {
   const { user, handleSignOut } = useContext(AuthContext);
 
   return (
     <>
-      <div className="flex flex-wrap gap-3 lg:gap-x-5 lg:gap-y-2 justify-center items-center bg-fuchsia-600 font-bold px-8 relative top-8">
-      
+      <div className="flex flex-wrap gap-3 lg:gap-x-5 lg:gap-y-2 justify-center items-center bg-fuchsia-600 font-bold px-8 relative top-8">      
         <NavLink
           to="/"
           className={({ isActive, isPending }) =>
@@ -21,6 +22,114 @@ const Navbar = () => {
           }
         >
           Home
+        </NavLink>
+        <NavLink
+          to="/classFive"
+          className={({ isActive, isPending }) =>
+            isPending
+              ? "pending"
+              : isActive
+              ? "active bg-white px-4"
+              : "text-white"
+          }
+        >
+          ClassFive
+        </NavLink>
+        <NavLink
+          to="/businessModelCanvas"
+          className={({ isActive, isPending }) =>
+            isPending
+              ? "pending"
+              : isActive
+              ? "active bg-white px-4"
+              : "text-white"
+          }
+        >
+          BWS
+        </NavLink>
+        <NavLink
+          to="/business"
+          className={({ isActive, isPending }) =>
+            isPending
+              ? "pending"
+              : isActive
+              ? "active bg-white px-4"
+              : "text-white"
+          }
+        >
+          Business
+        </NavLink>
+        <NavLink
+          to="/classFiveNew"
+          className={({ isActive, isPending }) =>
+            isPending
+              ? "pending"
+              : isActive
+              ? "active bg-white px-4"
+              : "text-white"
+          }
+        >
+          ClassFiveNew
+        </NavLink>
+        <NavLink
+          to="/autoCAD"
+          className={({ isActive, isPending }) =>
+            isPending
+              ? "pending"
+              : isActive
+              ? "active bg-white px-4"
+              : "text-white"
+          }
+        >
+          AutoCAD
+        </NavLink>
+        <NavLink
+          to="/redux"
+          className={({ isActive, isPending }) =>
+            isPending
+              ? "pending"
+              : isActive
+              ? "active bg-white px-4"
+              : "text-white"
+          }
+        >
+          NoteRedux
+        </NavLink>
+        <NavLink
+          to="/draggable"
+          className={({ isActive, isPending }) =>
+            isPending
+              ? "pending"
+              : isActive
+              ? "active bg-white px-4"
+              : "text-white"
+          }
+        >
+          Draggable
+        </NavLink>
+        <NavLink
+          to="/quiz"
+          className={({ isActive, isPending }) =>
+            isPending
+              ? "pending"
+              : isActive
+              ? "active bg-white px-4"
+              : "text-white"
+          }
+        >
+          Quiz
+        </NavLink>
+        <NavLink
+          to="/quiz3"
+          className={({ isActive, isPending }) =>
+            isPending
+              ? "pending"
+              : isActive
+              ? "active bg-white px-4"
+              : "text-white"
+          }
+        >
+          Quiz3
         </NavLink>
         <NavLink
           to="/webDev"
@@ -107,11 +216,7 @@ const Navbar = () => {
           }
         >
           Accounting
-        </NavLink>  
-        
-        
-
-             
+        </NavLink>                            
 
         <div className="flex flex-wrap gap-3 md:gap-5 justify-center items-center">
           <NavLink
@@ -165,10 +270,6 @@ const Navbar = () => {
               Login
             </NavLink>
           )}
-
-
-
-
 
 
           <NavLink

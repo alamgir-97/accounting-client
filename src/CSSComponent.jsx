@@ -9,6 +9,10 @@ const CSSComponent = () => {
           <NavLink to="cssProperties" classname="border border-lime-600 rounded-md m-4">CSS Properties</NavLink>
           <NavLink to="cssRelated" classname="border border-lime-600 rounded-md m-4">CSS Related</NavLink>
           <NavLink to="cssDesignSystem" classname="border border-lime-600 rounded-md m-4">Design System</NavLink>
+          <NavLink to="cssColors" classname="border border-lime-600 rounded-md m-4">Colors</NavLink>
+          <NavLink to="cssFonts" classname="border border-lime-600 rounded-md m-4">Fonts</NavLink>
+          <NavLink to="cssButtons" classname="border border-lime-600 rounded-md m-4">Buttons</NavLink>
+          <NavLink to="cssModals" classname="border border-lime-600 rounded-md m-4">DesignSystem</NavLink>
         </div>
         <CSS></CSS>
 

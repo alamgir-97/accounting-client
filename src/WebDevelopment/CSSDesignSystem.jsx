@@ -1,10 +1,18 @@
 import LearningBoard from "../Components/LearningBoard";
-
-
+import AccountingNavbar from "../Components/AccountingNavbar";    
+import CSSUIStyleGuide from "../WebDevelopment/CSSUIStyleGuide";
 
 const CSSDesignSystem = () => {
    
     return (
+        <div>
+        <AccountingNavbar></AccountingNavbar>
+        <h1>Design Checklist</h1>
+        <p>We need to make a checklist to check all aspects of a website is full filled according to standard and laws</p>
+        <li>alt attributes are attached with each image?</li>
+        <li>Design principles are followed?</li>
+        <li>Responsiveness is maintained?</li>
+        
         <div className="bg-white m-8 p-8">
               <div className="p-4 bg-fuchsia-700 rounded-lg mt-4">
                         <li className="list-none cursor-pointer bg-white rounded-lg p-4  text-xl font-bold text-center"><a className='text-blue-500' href="https://www.youtube.com/watch?v=BU_afT-aIn0" target="_blank" rel='noreferrer'>UI UX Design Full Course | UI UX Course | UI UX Training | Intellipaat</a></li>
@@ -93,8 +101,135 @@ const CSSDesignSystem = () => {
             <a href="https://www.friday.ie/blog/why-design-systems-are-important-a-single-source-of-truth/">https://www.friday.ie/blog/why-design-systems-are-important-a-single-source-of-truth/</a>
             <a href="https://bootcamp.uxdesign.cc/building-design-systems-with-atomic-design-fd21e86f34c5">https://bootcamp.uxdesign.cc/building-design-systems-with-atomic-design-fd21e86f34c5</a>
         
+
+            <section className='border m-4 p-4 rounded-xl'>
+<div className="m-4 p-8 border bg-blue-400">
+  <h1 className="text-xl font-bold">Buttons</h1>
+  <div><b>Buttons:</b> We use buttons when we perform an action </div>
+  <div><b>Links:</b> We use links when we nevigate to other page </div>
+  
+  <div><b> Button&apos;s Anatomy: </b>i. Shape ii. Icon iii. Text
+  <img src='/button-anatomy.png'></img>
+  </div>
+  <div><b> Button Size: </b></div>
+  <img src='/button-size-google-material-ui-guideline.png'></img>
+  
+  <div><b> Button Types: </b></div>
+  <img src='/button-types.png'></img>
+  <div><b> Button State: </b></div>
+  <img src='/button-states.png'></img>
+  <div><b> Button Priorities: </b></div>
+  <img src='/button-priorities.png'></img>
+  <div><b> Easy Button: </b></div>
+  <img src='/easy-button.png'></img>
+  <div><b> Consistent Button: </b></div>
+  <img src='/consistent-priorities.png'></img>
+  <div><b> Button Order: </b></div>
+  <img src='/button-order.png'></img>
+  
+  <a className="font-xl border rounded-md bg-orange-300 px-8 py-4 m-6 text-blue-700 cursor-pointer font-semibold"  href='https://www.youtube.com/watch?v=tJNR_7W_5RM' target='_blank' rel='noreferrer'>Everything about BUTTONS in UI design components or elements #1</a>
+</div>
+<div className="m-4 p-8 border bg-blue-400">
+  <h1 className="text-xl font-bold">Design System</h1>
+  <div>Atoms</div>
+  <div>Molecules</div>
+  <div>Organisms</div>
+  <div>Templates</div>
+  <div>Pages</div>
+</div>
+<div className="m-4 p-8 border bg-blue-400">
+  <h1 className="text-xl font-bold">Style Guides</h1>
+  <div>Colors</div>
+  <div>Hex Code</div>
+  <div>Typography</div>
+  <div>Space</div>
+  <div>Does and Don&apos;ts</div>
+  <div>Icons</div>
+  <div>Color Palettes</div>
+</div>
+        </section>
+        <CSSUIStyleGuide></CSSUIStyleGuide>
+        <section className='border m-4 p-4 rounded-xl'>
+<div className="m-4 p-8 border bg-blue-400">
+  <h1 className="text-xl font-bold">Design System</h1>
+  <div>User</div>
+  <div>Tools</div>
+  <div>Patterns</div>
+  <div>Guidelines</div>
+  <div>Brand</div>
+  <a className="font-xl border rounded-md bg-orange-300 px-8 py-4 m-6 text-blue-700 cursor-pointer font-semibold"  href='https://www.youtube.com/watch?v=Iy5hEl1ytSU' target='_blank' rel='noreferrer'>See How Design System and Style Guide works? | How to create them?</a>
+</div>
+<div className="m-4 p-8 border bg-blue-400">
+  <h1 className="text-xl font-bold">Design System</h1>
+  <div>Atoms</div>
+  <div>Molecules</div>
+  <div>Organisms</div>
+  <div>Templates</div>
+  <div>Pages</div>
+</div>
+<div className="m-4 p-8 border bg-blue-400">
+  <h1 className="text-xl font-bold">Style Guides</h1>
+  <div>Colors</div>
+  <div>Hex Code</div>
+  <div>Typography</div>
+  <div>Space</div>
+  <div>Does and Don&apos;ts</div>
+  <div>Icons</div>
+  <div>Color Palettes</div>
+</div>
+        </section>
+
+
+
+<section className='border m-4 p-4 rounded-xl'>
+<div className="m-4 p-8 border bg-blue-400">
+  <h1 className="text-xl font-bold">Buttons</h1>
+  <div><b>Buttons:</b> We use buttons when we perform an action </div>
+  <div><b>Links:</b> We use links when we nevigate to other page </div>
+  
+  <div><b> Button&apos;s Anatomy: </b>i. Shape ii. Icon iii. Text
+  <img src='/button-anatomy.png'></img>
+  </div>
+  <div><b> Button Size: </b></div>
+  <img src='/button-size-google-material-ui-guideline.png'></img>
+  
+  <div><b> Button Types: </b></div>
+  <img src='/button-types.png'></img>
+  <div><b> Button State: </b></div>
+  <img src='/button-states.png'></img>
+  <div><b> Button Priorities: </b></div>
+  <img src='/button-priorities.png'></img>
+  <div><b> Easy Button: </b></div>
+  <img src='/easy-button.png'></img>
+  <div><b> Consistent Button: </b></div>
+  <img src='/consistent-priorities.png'></img>
+  <div><b> Button Order: </b></div>
+  <img src='/button-order.png'></img>
+  
+  <a className="font-xl border rounded-md bg-orange-300 px-8 py-4 m-6 text-blue-700 cursor-pointer font-semibold"  href='https://www.youtube.com/watch?v=tJNR_7W_5RM' target='_blank' rel='noreferrer'>Everything about BUTTONS in UI design components or elements #1</a>
+</div>
+<div className="m-4 p-8 border bg-blue-400">
+  <h1 className="text-xl font-bold">Design System</h1>
+  <div>Atoms</div>
+  <div>Molecules</div>
+  <div>Organisms</div>
+  <div>Templates</div>
+  <div>Pages</div>
+</div>
+<div className="m-4 p-8 border bg-blue-400">
+  <h1 className="text-xl font-bold">Style Guides</h1>
+  <div>Colors</div>
+  <div>Hex Code</div>
+  <div>Typography</div>
+  <div>Space</div>
+  <div>Does and Don&apos;ts</div>
+  <div>Icons</div>
+  <div>Color Palettes</div>
+</div>
+        </section>
    <LearningBoard></LearningBoard>
         
+        </div>
         </div>
 
     );

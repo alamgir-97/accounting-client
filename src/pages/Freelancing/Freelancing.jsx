@@ -176,13 +176,37 @@ const Freelancing = () => {
             <button className="h-max-[35vw] border rounded-lg bg-orange-300 p-4 md:p-6 m-4 text-base md:text-lg lg:text-2xl text-left"><a className='text-blue-800' href="https://www.youtube.com/watch?v=y4qUEBlgU_w" target="_blank" rel="noreferrer">NVIDIA&apos;s STUNNING Breakthroughs: Blackwell AI Chip, Robots, AGI, World Model and more!</a></button>
             <button className="h-max-[35vw] border rounded-lg bg-orange-300 p-4 md:p-6 m-4 text-base md:text-lg lg:text-2xl text-left"><a className='text-blue-800' href="https://www.youtube.com/watch?v=OFS90-FX6pg&t=32s" target="_blank" rel="noreferrer">ChatGPT: 30 Year History | How AI Learned to Talk</a></button>
             <button className="h-max-[35vw] border rounded-lg bg-orange-300 p-4 md:p-6 m-4 text-base md:text-lg lg:text-2xl text-left"><a className='text-blue-800' href="https://www.youtube.com/watch?v=cTYRwJSOP8U" target="_blank" rel="noreferrer">The CORRECT way to use Google Gemini - Updated for 2024!</a></button>
+            <button className="h-max-[35vw] border rounded-lg bg-orange-300 p-4 md:p-6 m-4 text-base md:text-lg lg:text-2xl text-left"><a className='text-blue-800' href="https://www.youtube.com/watch?v=S2GqQ4gJAH0" target="_blank" rel="noreferrer">How to elevate software development with AI-assisted coding</a></button>
+            <button className="h-max-[35vw] border rounded-lg bg-orange-300 p-4 md:p-6 m-4 text-base md:text-lg lg:text-2xl text-left"><a className='text-blue-800' href="https://www.youtube.com/watch?v=sY2Jg4kJujk" target="_blank" rel="noreferrer">How you Can Build Career in Artificial Intelligence?</a></button>
             
+            </div>
+
+        <div className='mx-auto mt-8 mb-4 md:mt-10 md:mb-6'>
+           <div className="border rounded-xl p-4 md:p-6 m-2 md:m-4 flex flex-col justify-center">           
+            <h1 className="font-bold text-lg md:text-xl lg:text-2xl text-center mb-6">এপিআই ও টেস্টিং</h1>
+            <button className="h-max-[35vw] border rounded-lg bg-orange-300 p-4 md:p-6 m-4 text-base md:text-lg lg:text-2xl text-left"><a className='text-blue-800' href="https://www.youtube.com/watch?v=HBH6qnj0trU" target="_blank" rel="noreferrer">Want to build a good API? Here&apos;s 5 Tips for API Design.</a></button>
+            <button className="h-max-[35vw] border rounded-lg bg-orange-300 p-4 md:p-6 m-4 text-base md:text-lg lg:text-2xl text-left"><a className='text-blue-800' href="https://www.youtube.com/watch?v=9JPbnYUeKuM" target="_blank" rel="noreferrer">Is Your API ACTUALLY Ready for User Traffic?</a></button>            
+            </div>
             </div>
 
         
             
             </div>
+            <button className="h-max-[35vw] border rounded-lg bg-orange-300 p-4 md:p-6 m-4 text-base md:text-lg lg:text-2xl text-left"><a className='text-blue-800' href="https://www.youtube.com/@tapasadhikary" target="_blank" rel="noreferrer">tapaScript</a></button>            
           
+           <div className="border rounded-xl p-4 md:p-6 m-2 md:m-4 flex flex-col justify-center">           
+            <h1 className="font-bold text-lg md:text-xl lg:text-2xl text-center mb-6">অনলাইন বাস টার্মিনাল</h1>
+            <button className="h-max-[35vw] border rounded-lg bg-orange-300 p-4 md:p-6 m-4 text-base md:text-lg lg:text-2xl text-left"><a className='text-blue-800' href="https://www.prothomalo.com/bangladesh/district/iwommusl4p" target="_blank" rel="noreferrer">অনলাইন বাস টার্মিনাল</a></button>
+            <button className="h-max-[35vw] border rounded-lg bg-orange-300 p-4 md:p-6 m-4 text-base md:text-lg lg:text-2xl text-left"><a className='text-blue-800' href="https://www.coxscab.com/" target="_blank" rel="noreferrer">https://www.coxscab.com/</a></button>            
+            </div>
+           <div className="border rounded-xl p-4 md:p-6 m-2 md:m-4 flex flex-col justify-center">           
+            <h1 className="font-bold text-lg md:text-xl lg:text-2xl text-center mb-6">আর্টিফিসিয়াল ইনটেলিজেন্স অলম্পিয়াড</h1>
+            <button className="h-max-[35vw] border rounded-lg bg-orange-300 p-4 md:p-6 m-4 text-base md:text-lg lg:text-2xl text-left"><a className='text-blue-800' href="https://www.bigganchinta.com/events/0erqihjb7m" target="_blank" rel="noreferrer">চট্টগ্রামে বাংলাদেশ আর্টিফিশিয়াল ইন্টেলিজেন্স অলিম্পিয়াডের প্রস্তুতি কর্মশালা</a></button>
+            </div>
+           <div className="border rounded-xl p-4 md:p-6 m-2 md:m-4 flex flex-col justify-center">           
+            <h1 className="font-bold text-lg md:text-xl lg:text-2xl text-center mb-6">ড্রয়িং ওয়েবসাইট</h1>
+            <button className="h-max-[35vw] border rounded-lg bg-orange-300 p-4 md:p-6 m-4 text-base md:text-lg lg:text-2xl text-left"><a className='text-blue-800' href="https://www.mcgill.ca/engineeringdesign/step-step-design-process/design-methods" target="_blank" rel="noreferrer">drawing website</a></button>
+            </div>
           
        
             

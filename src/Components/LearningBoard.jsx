@@ -2,19 +2,35 @@ import { useContext, useState } from "react";
 import Marquee from "react-fast-marquee";
 import { FormulaContext } from "../formulaProvider/formulaProvider";
 
-const LearningBoard = () => {
+const LearningBoard = () => {    
     const  {readContent, copyContent}= useContext(FormulaContext);    
     const [video, setVideo] = useState()
+
+    const videos = [
+        {id:1, src: "https://www.youtube.com/watch?v=qhll3DXuLHI"},
+        {id:2, src: "https://www.youtube.com/watch?v=agbh1wbfJt8"},
+        {id:3, src: "/public/title-artist.mp4"},
+       ]  
 
     const handleVideo = () => {
         setVideo(
         <>
+
+        
         <video src="/public/title-artist.mp4" width="400px" controls className="resize"></video>
         <div className="flex gap-4">
         <div className="border font-bold rounded-sm bg-fuchsia-600" onClick={handlePhoto}><button>Handle Photo</button></div>
         <div className="border font-bold rounded-sm bg-fuchsia-600" onClick={handleNote}><button>Handle Note</button></div>
         <div className="border font-bold rounded-sm bg-fuchsia-600" onClick={handleQuiz}><button>Handle Quiz</button></div>
-        </div>        
+        </div>
+        <div>
+        {videos.map(video => 
+                    <div key={video.id} className="border p-4 m-4">
+                        <video  src={video.src} width="400px" className="border-3">
+                    </video>
+                    </div>
+                    )}
+        </div>         
         </>)      
     }
     const handlePhoto = () => {

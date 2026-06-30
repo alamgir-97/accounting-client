@@ -6,27 +6,27 @@ const FrontEndProjectSetup = () => {
     console.
     log('Copy on Click functionality is not added yet.')
   }
-const [width, setWidth] = useState("w-20")
-  const handleWidthExpand =() => {
-    setWidth("w-96 bg-amber-300 flex justify-center h-[50vh]")
-  }
+// const [width, setWidth] = useState("w-20")
+//   const handleWidthExpand =() => {
+//     setWidth("w-96 bg-amber-300 flex justify-center h-[50vh]")
+//   }
 
-  const handleWidthShrink =() => {
-    setWidth("w-24 bg-amber-300 flex justify-center h-[50vh]")
-  }
+  // const handleWidthShrink =() => {
+  //   setWidth("w-24 bg-amber-300 flex justify-center h-[50vh]")
+  // }
     return (
       <>
         <div className="mb-96 bg-white">
           {/* sample portion */}
 
-<div className={width} >
+{/* <div className={width} >
   <button onClick={handleWidthExpand} onDoubleClickCapture={handleWidthShrink} className="border">Expand</button>
   <button onClick={handleWidthShrink}>Shrink</button>
   <p>The quick brown fox jumps over he lazy dog.The quick brown fox jumps 
   over he lazy dog.The quick brown fox jumps over he lazy dog.The quick 
   brown fox jumps over he lazy dog.The quick brown fox jumps over he lazy 
   dog.The quick brown fox jumps over he lazy dog.</p>
-</div>
+</div> */}
 
 
     {/* <div className="absolute -top-2 left-0 py-1 bg-gray-800 pl-3 pr-20 w-32 border-b-2 border-sky-400 text-lg"><code>terminal</code></div>

@@ -11,7 +11,7 @@ const MainLayout = () => {
            <div className="fixed top-0 left-0 w-full"> 
                 <AppName></AppName>
            </div>
-          <Navbar></Navbar>     
+          <Navbar></Navbar>   
 
             <Outlet></Outlet>           
            <Footer></Footer>

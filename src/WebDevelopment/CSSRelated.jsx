@@ -3,7 +3,7 @@ import Npm from "./Npm";
 import AccountingNavbar from "../Components/AccountingNavbar";
 import { NavLink } from "react-router-dom";
 import WebDevRelatedWebsites from "./WebDevRelatedWebsites";
-import CSSUIStyleGuide from "../WebDevelopment/CSSUIStyleGuide";
+
 import InterviewQuestions from "./InterviewQuestions";
 
 const CSSRelated = () => {
@@ -52,11 +52,9 @@ const CSSRelated = () => {
             <li><a className='text-blue-500' href="https://www.youtube.com/shorts/nQfRo6WzFOU" target="_blank" rel='noreferrer'>Level Up Your Web Design with Realistic Gradient Shadows in CSS</a></li>            
             <li><a className='text-blue-500' href="https://www.youtube.com/watch?v=gLkAeBvqBv8" target="_blank" rel='noreferrer'>Toggle Button Text with JavaScript - [HowToCodeSchool.com]</a></li>
             <li><a className='text-blue-500' href="https://www.youtube.com/watch?v=ZW5_ObNKTmI" target="_blank" rel='noreferrer'>Get Input Value Length OnClick in JavaScript [HowToCodeSchool.com]</a></li>
-            <li><a className='text-blue-500' href="https://www.youtube.com/watch?v=OV8yOlOLooM" target="_blank" rel='noreferrer'>Customizing Radio Buttons in CSS: Step-by-Step Tutorial | HTML Custom Radio Buttons | Form Design</a></li>
-            <li><a className='text-blue-500' href="https://www.prothomalo.com/technology/jaad9wb3m7" target="_blank" rel='noreferrer'>ফন্ট নিয়ে নানা গল্প</a></li>
+            <li><a className='text-blue-500' href="https://www.youtube.com/watch?v=OV8yOlOLooM" target="_blank" rel='noreferrer'>Customizing Radio Buttons in CSS: Step-by-Step Tutorial | HTML Custom Radio Buttons | Form Design</a></li>                    
             <li><a className='text-blue-500' href="https://www.youtube.com/watch?v=TYHFe4L9bfo" target="_blank" rel='noreferrer'>#29 CSS Gradients - CSS Full Tutorial</a></li>
             <li><a className='text-blue-500' href="https://www.youtube.com/watch?v=uf9Ug1xtSMI" target="_blank" rel='noreferrer'>Vertical step navigation in ReactJS - Beginners friendly tutorial - Web development</a></li>
-            <li><a className='text-blue-500' href="https://www.youtube.com/watch?v=uLlDXCak48A&t=10s" target="_blank" rel='noreferrer'>Typographic Systems</a></li>        
             <li><a className='text-blue-500' href="https://www.youtube.com/watch?v=qhll3DXuLHI" target="_blank" rel='noreferrer'>React Redux Crash Course Bangla with Redux Toolkit</a></li>        
             <li><a className='text-blue-500' href="" target="_blank" rel='noreferrer'></a></li>        
             <li><a className='text-blue-500' href="" target="_blank" rel='noreferrer'></a></li>        
@@ -166,6 +164,15 @@ const CSSRelated = () => {
           <ol className="m-4 list-decimal"> 
           <h1>Sitemap</h1>
           <li><a className='text-blue-500' href="https://www.youtube.com/watch?v=fVs_SohmleU" target="_blank" rel='noreferrer'>Sitemap Design in 6 Steps</a></li>
+          </ol>
+          </div>
+      </section>
+
+      <section className='border p-4 rounded-md my-2'>
+      <div> 
+          <ol className="m-4 list-decimal"> 
+          <h1>Sitemap</h1>
+          <li><a className='text-blue-500' href="https://www.type-scale.com" target="_blank" rel='noreferrer'>Type Scale</a></li>
           </ol>
           </div>
       </section>
@@ -345,52 +352,7 @@ const CSSRelated = () => {
 
 
 
-<section className='border m-4 p-4 rounded-xl'>
-<div className="m-4 p-8 border bg-blue-400">
-  <h1 className="text-xl font-bold">Buttons</h1>
-  <div><b>Buttons:</b> We use buttons when we perform an action </div>
-  <div><b>Links:</b> We use links when we nevigate to other page </div>
-  
-  <div><b> Button&apos;s Anatomy: </b>i. Shape ii. Icon iii. Text
-  <img src='/button-anatomy.png'></img>
-  </div>
-  <div><b> Button Size: </b></div>
-  <img src='/button-size-google-material-ui-guideline.png'></img>
-  
-  <div><b> Button Types: </b></div>
-  <img src='/button-types.png'></img>
-  <div><b> Button State: </b></div>
-  <img src='/button-states.png'></img>
-  <div><b> Button Priorities: </b></div>
-  <img src='/button-priorities.png'></img>
-  <div><b> Easy Button: </b></div>
-  <img src='/easy-button.png'></img>
-  <div><b> Consistent Button: </b></div>
-  <img src='/consistent-priorities.png'></img>
-  <div><b> Button Order: </b></div>
-  <img src='/button-order.png'></img>
-  
-  <a className="font-xl border rounded-md bg-orange-300 px-8 py-4 m-6 text-blue-700 cursor-pointer font-semibold"  href='https://www.youtube.com/watch?v=tJNR_7W_5RM' target='_blank' rel='noreferrer'>Everything about BUTTONS in UI design components or elements #1</a>
-</div>
-<div className="m-4 p-8 border bg-blue-400">
-  <h1 className="text-xl font-bold">Design System</h1>
-  <div>Atoms</div>
-  <div>Molecules</div>
-  <div>Organisms</div>
-  <div>Templates</div>
-  <div>Pages</div>
-</div>
-<div className="m-4 p-8 border bg-blue-400">
-  <h1 className="text-xl font-bold">Style Guides</h1>
-  <div>Colors</div>
-  <div>Hex Code</div>
-  <div>Typography</div>
-  <div>Space</div>
-  <div>Does and Don&apos;ts</div>
-  <div>Icons</div>
-  <div>Color Palettes</div>
-</div>
-        </section>
+
 
 </div>
 
@@ -405,7 +367,7 @@ git remote add origin https://github.com/alamgir-97/npm-alamgir5.git
 git push -u origin main`} 
 </p>
 </div>
-<CSSUIStyleGuide></CSSUIStyleGuide>
+
 <WebDevRelatedWebsites></WebDevRelatedWebsites>
 <InterviewQuestions></InterviewQuestions>
         </>    

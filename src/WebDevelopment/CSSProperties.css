@@ -6,12 +6,13 @@
 
 .tooltiptext {
   visibility: hidden;
-  width: 800px;
-  background-color: #000077;
+  /* width: 800px; */
+  /* background-color: #000077; */
+  background-color: #008888;
   color: #fff;
   text-align: center;
   border-radius: 6px;
-  padding: 5px 0;
+  padding: 10px;
   position: absolute;
   z-index: 1;
   top: 150%;

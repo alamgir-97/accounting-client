@@ -204,7 +204,8 @@ const Journal = () => {
   <h1 className="text-center font-bold text-2xl p-4 underline text-rose-700">Journal</h1>
   <h1 className="text-right text-xl pr-12"><span className="font-semibold">Total Recorded Transactions:</span><span className="bg-gray-100 px-3 rounded-md">{transactions.length}</span></h1>
   <h1 className="text-right text-base pr-12"><span className="font-semibold">Debit Total: </span><span className="bg-gray-100 px-3 rounded-md">{transactions.length}</span><span className="font-semibold">Credit Total: </span> <span className="bg-gray-100 px-3 rounded-md">{transactions.length}</span></h1>
-  <div>{transactions.map((transaction, index)=><div key={transaction._id} className="flex border-2 border-blue-600 w-[90vw] mx-auto text-xs md:text-base">
+  <div>{transactions.map((transaction, index)=>
+  <div key={transaction._id} className="flex border-2 border-blue-600 w-[90vw] mx-auto text-xs md:text-base">
   
   <div className="flex flex-col w-[75vw]">
   <div className="flex"><p className="border px-2 w-[7vw] text-right font-semibold">{index+1}</p><p className="border px-2 w-[15vw] text-center font-semibold">{transaction.date}</p><p className="border px-2 w-[60vw] text-right font-semibold">{transaction.description}</p></div>

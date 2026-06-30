@@ -1,0 +1,21 @@
+.items {
+  padding: 20px;
+  border: 2px solid transparent;
+  width: 320px;
+  height: 60px;
+  background-color: #5aa897;
+  margin: 20px;
+  border-radius: 8px;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+  box-shadow: 0.2s ease, background-color 0.2s ease;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}

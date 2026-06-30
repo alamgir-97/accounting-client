@@ -3,25 +3,20 @@ import AppName from "../../Components/AppName";
 import Footer from "../../Components/Footer";
 import WebDevCoursePlan from "../../WebDevelopment/WebDevCoursePlan";
 
-
 const Freelancing = () => {
-   
-   
- 
+  // const handlePopUpCard = () => {
+  //     <div className="border rounded-lg mx-auto w-4/12 px-4 bg-emerald-600">
+  //         <h1 className="font-bold">This is a heading</h1>
+  //         <p>This is a paragraph</p>
+  //     </div>
+  // }
+  return (
+    <div className="bg-white">
+      <AppName></AppName>
+      <AccountingNavbar></AccountingNavbar>
+      {/* <h2 className="text-center text-4xl font-bold py-2 my-4">Freelancing and Job Search</h2>          */}
 
-    // const handlePopUpCard = () => {
-    //     <div className="border rounded-lg mx-auto w-4/12 px-4 bg-emerald-600">
-    //         <h1 className="font-bold">This is a heading</h1>
-    //         <p>This is a paragraph</p>
-    //     </div>
-    // }
-    return (
-        <div  className="bg-white">
-            <AppName></AppName>
-            <AccountingNavbar></AccountingNavbar>
-           {/* <h2 className="text-center text-4xl font-bold py-2 my-4">Freelancing and Job Search</h2>          */}
-           
-           {/* <div className="">           
+      {/* <div className="">           
            <h1 className="font-bold text-3xl">Freelancing Sites</h1>
            <div className="border p-4 m-4 rounded-xl grid grid-cols-1 md:grid-cols-3">          
             <button className="btn rounded-lg border m-4 bg-orange-300 w-[80vw] h-[25vw] md:w-[25vw] md:h-[8vw] text-2xl"><a href="https://www.fiverr.com/" target="_blank" rel="noreferrer">Fiverr</a></button>
@@ -97,10 +92,10 @@ const Freelancing = () => {
             
           
            </div> */}
-           <WebDevCoursePlan></WebDevCoursePlan>
-           <Footer></Footer>
-        </div>
-    );
+      <WebDevCoursePlan></WebDevCoursePlan>
+      <Footer></Footer>
+    </div>
+  );
 };
 
 export default Freelancing;
