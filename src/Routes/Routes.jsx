@@ -36,6 +36,7 @@ import ItemRateAnalysis from "../pages/Estimating/ItemRateAnalysis";
 import EngineeringLayout from "../layouts/EngineeringLayout";
 import Architecture from "../pages/Engineering/Architecture/Architecture";
 import StructuralEngineering from "../pages/Engineering/StructuralEngineering/StructuralEngineering";
+import Electronics from "../pages/Engineering/Electronics/Electronics";
 import Blog from "../pages/Blog/Blog";
 import CSSDesignSystem from "../WebDevelopment/CSSDesignSystem";
 import CSSColors from "../WebDevelopment/CSSColors";
@@ -185,11 +186,15 @@ const Routes = createBrowserRouter([
               path: "engineering/architecture",
               element: <Architecture></Architecture>,
             },
-            {
-              path: "engineering/structuralEngineering",
-              element: <StructuralEngineering></StructuralEngineering>,
-            },   
-          ]
+              {
+                path: "engineering/structuralEngineering",
+                element: <StructuralEngineering></StructuralEngineering>,
+              },
+              {
+                path: "engineering/electronics",
+                element: <Electronics></Electronics>,
+              }
+            ]
         },
     
             {
